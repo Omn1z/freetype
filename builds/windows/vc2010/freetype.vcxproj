@@ -123,8 +123,8 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <PropertyGroup>
-    <OutDir>..\..\..\objs\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>..\..\..\objs\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)objs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)objs\$(Platform)\$(Configuration)\Temp\</IntDir>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
